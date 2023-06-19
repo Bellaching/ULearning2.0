@@ -30,17 +30,20 @@ li .nav_links {
     letter-spacing: 0cap;
 }
 
-.dl {
+#dl {
     background-color: #FE8E04;
     border-color: #FE8E04;
-    padding: 10px;
     border-radius: 30px;
+    
     font-size: 15px;
     color: #fff;
     text-decoration: none;
+    
+    
 }
 
-.dl:hover {
+
+#dl:hover {
     background-color: #DF7D04;
     cursor: pointer;
 }
@@ -67,11 +70,18 @@ header {
     cursor: pointer;
 }
 
-.ul_nav li {
-    display: inline-block;
+.ul_nav li{
     padding: 20px;
-    margin-bottom: 20px;
 }
+.ul_nav li,
+#dl
+{
+    display: inline-block;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+
 
 #ulearning {
     color: #FE8E04;
@@ -132,11 +142,19 @@ header {
     text-decoration: none;
 }
 
+.aboutus{
+    color: #FE8E04 !important;
+    font-size: 80px !important;
+    
+    line-height: 60%;
+    padding-top: 2%;
+   
 
+    }
 
   .container {
     margin: 5%;
-   
+    margin-top: -2%;
     background-size: cover;
     justify-content: center;
     align-items: center;
@@ -172,10 +190,18 @@ header {
   }
   
   
+  .aboutusblue{
+    color: #58ACDB !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    margin-top: -4.8%;
+    font-family: 'Montserrat', sans-serif;  
+    margin-bottom: 3%; 
+  }
+
   
-
-
-
 
 
 
@@ -292,7 +318,7 @@ header {
     font-size: 105px;
     line-height: 60%;
 }
-#blue{
+.blue{
     color: #58ACDB;
     font-family: 'Montserrat', sans-serif;  
 }
@@ -444,6 +470,33 @@ header {
     color: #fff;
 }
 
+#contact {
+    background-repeat: no-repeat;
+    background-image: url("cloudnavbg2outliner.png");
+    height: 100px;
+    padding: 5px 3%;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+
+}
+#conblue{
+    color: #58ACDB;
+}
+#contact h1 {
+    color: #FE8E04;
+}
+
+.links a {
+    color: #FE8E04;
+    padding: 20%;
+    font-size: 25px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
 
 
 
@@ -529,4 +582,25 @@ header {
         font-size: 30px;
         margin: 10%;
       }
+
+      #contact{
+        display: flex;
+       
+        justify-content:center ;
+        align-items: center;
+      }
+
+      #contact h1 {
+        font-size: 10px;
+        display: flex;
+        
+        
+        
+      }
+
+      .links a{
+        font-size: 15px;
+      }
+
+     
 }
